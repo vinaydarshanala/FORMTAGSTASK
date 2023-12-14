@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMTAGS TASK</title>
+</head>
+<body>
+    <fieldset >
+        <legend> REGISTRATION FORM </legend>
+    <form>
+        <label for="fnam"> FIRST NAME</label>
+        
+        <input type="text" name="name" id="fnam"required  placeholder="ex:darshanala"/>
+        
+
+        <label for="lnam"> LAST NAME:</label>
+        <input type="text" name="name" id="lnam"required  placeholder=" ex:vinay"/>
+        <br><br>
+
+        <label for="mail"> EMAIL ID:</label>
+        <input type="email" name="email" id="mail"required placeholder="ex:darshanalavinay22@gmail" />
+        <br><br>
+
+        <label for="cell"> CELL NO:</label>
+        <input type="number" name="cell no" id="cell" pattern="[0-9],{10}" placeholder="ex:9988667755" />
+        <br><br>
+
+        <label for="dob"> ENTER DOB:</label>
+        <input type="datetime-local" name="date of birth" id="dob"required placeholder= />
+        <br><br>
+
+        <label for="file"> UPLOD PHOTO</label>
+        <input type="file" name="uplod photo" id="file"required />
+        <br><br>
+
+        <label for="PWD"> CREATE PASSWORD :</label>
+        <input type="password" name="password" id="PWD"required placeholder="ex:@2345#123" />
+        <br><br>
+
+        <label for="REPET"> REPET PASSWORD</label>
+        <input type="text" name="name" id="REPET" required placeholder="ex:@1234#123" />
+        <br><br>
+
+        <label for="">   ACEPT T&L </label>
+        <input type="checkbox" name="TERMS AND CONDITIONS" id="T&L"required />
+        <br><br>
+        <input type="submit"/>
+    </form>
+    </fieldset>
+    <BR>
+        <BR>
+            <fieldset>
+                <legend>LOGIN FORM </legend>
+                <form>
+                    <label for="nam">ENTER EMAIL\ USER NAME:</label>
+                    <input type="text" name="username" id="nam" required placeholder="ex:vinay">
+                    <br>
+                    <br>
+
+                    <label for="pwd">ENTER PASSWORD:</label>
+                    <input type="text" name="password" id="pwd" required placeholder="ex:@1234#123"> 
+                    <br>
+                    <br>
+                    <button> LOGIN</button>
+                    <br>
+                    <br>
+                    
+                </form>
+            </fieldset>
+    
+</body>
+</html>
